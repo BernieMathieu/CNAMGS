@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav ul li{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+    display: inline-block;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+nav {
+    background-color: #078207;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: auto;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    margin-bottom: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 50px;
+    display: inline;
+    justify-content: center;
+}
+
+ul li a:hover {
+    color:white;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    animation-duration: 5s;
+    animation-name: MesImages;
+    animation-iteration-count: infinite;
+}
+.images img:hover{
+    transform: scale(1.2);
+}
+
+@keyframes MesImages{
+    0%{
+        transform: translateX(0);
+    }
+    25% {
+    transform: translateX(-600px);
+}
+
+
+
+}
+main {
+    overflow: hidden;
+}
+
+main p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: #000;
+    font-weight: bold;
+    font-size: 30px;
+}
+section{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-arounds;
+    padding: auto;
+}  
+
+    section{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-arounds;
+        padding: auto;
+    }  
+
+
+section p {
+    width: 50%;
+    padding-left: 50px;
+    color: black;
+    
+}
+
+.vidéo {
+    padding-left: 20px;
+}
+
+
+.discours_dg {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-arounds;
+    padding-left: 20px;
+    height: 50;
+}
+@media (max-width: 768px) {
+    .discours_dg {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-arounds;
+        padding-left: 20px;
+        height: 50;
+    }
+}
+
+
+.discours {
+    width: 40%;
+    background-color: #52a11e;
+    padding: 60px 60px 60px 60px;
+}
+
+.discours p, h1 {
+    color: white;
+    padding-top: 10px;
+}
+
+.cnamgs {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-arounds;
+    padding-left: 20px;
+    height: 50; 
+}
+
+.discours_pdg h1, p {
+    color: white;
+    padding-top: 10px;
+} 
+
+.discours_pdg{
+    width: 50%;
+    background-color: #52a11e;
+    padding: 40px 40px 40px 40px; 
+}
+
+.photo  {
+    background-image:url(images/Coach\ Silvère.jpg) ;
+    background-size: cover;
+    background-position: top;
+    width: 50%;
+}
+
+
+
+
+.footer {
+    display: inline-block;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+footer {
+    background: rgba(0, 0, 0, 0) linear-gradient(#52a11e, greenyellow, white, white, white) repeat scroll 0 0;
+    height: 200px;
+    padding-left: 50%;
+    padding-top: 150px;
+    margin-top: 20px;
+}
+.hr {
+    margin-bottom: 50px;
+    align-items: center;
+    display: inline-block;
+    justify-content: center;
+    align-items: flex-end;
+}
